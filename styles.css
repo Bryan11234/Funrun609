@@ -2,13 +2,13 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #333; /* Light background to highlight the navbar */
-  overflow: auto; /* Enables scrolling */
+  background-color: #222; /* Light background to highlight the navbar */
+  overflow-y: scroll; /* Ensures vertical scrolling is enabled */
   scrollbar-width: none; /* Hides scrollbar in Firefox */
 }
 
 body::-webkit-scrollbar {
-  display: none; /* Hides scrollbar in WebKit browsers (Chrome, Edge, Safari) */
+  display: none; /* Hides scrollbar in WebKit-based browsers */
 }
 
 /* Navigation bar styles */
