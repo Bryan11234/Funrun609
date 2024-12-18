@@ -1,76 +1,45 @@
-body{
-      padding: 0;
-      margin: 0;
-      background-color: floralwhite;
-  }
- 
-  h1{
-      margin-top: 50px;
-      margin-left: 510px;
-      font-size: 60px;
-      font-family: 'Karla', sans-serif;
-      font-weight: lighter;
-  }
- 
-  .slider-frame{
-      overflow: hidden;
-      height: 783px;
-      width: 261px;
-      margin-left: 360px;
-      margin-top: 20px;
-  }
- 
-  /*---------- SLIDE ANIMATION --------------*/
- 
- 
-  @keyframes slide_animation{
-      0% {left:0px;}
-      10% {left:0px;}
-      20% {left:1200px;}
-      30% {left:1200px;}
-      40% {left: 2400px;}
-      50% {left: 2400px;}
-      60% {left: 1200px;}
-      70% {left: 1200px;}
-      80% {left: 0px;}
-      90% {left: 0px;}
-      100% {left:0px;}
-  }
- 
-  @-webkit-keyframes slide_animation{
-      0% {left:0px;}
-      10% {left:0px;}
-      20% {left:1200px;}
-      30% {left:1200px;}
-      40% {left: 2400px;}
-      50% {left: 2400px;}
-      60% {left: 1200px;}
-      70% {left: 1200px;}
-      80% {left: 0px;}
-      90% {left: 0px;}
-      100% {left:0px;}
-  }
- 
-  .slide-images{
-      width: 3600px;
-      height: 800px;
-      margin: 0 0 0 -2400px;
-      position: relative;
-      -webkit-animation-name: slide_animation;
-      animation-name: slide_animation;
-      -webkit-animation-duration: 33s;
-      animation-duration: 33s;
-      -webkit-animation-iteration-count: infinite;
-      animation-iteration-count: infinite;
-      -webkit-animation-direction: alternate;
-      animation-direction: alternate;
-      -webkit-animation-play-state: running;
-      animation-play-state: running;
-  }
- 
-  .img-container{
-      height: 800px;
-      width: 1200px;
-      position: relative;
-      float: left;
-  }
+/* Reset body styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7); /* Transparent background */
+  backdrop-filter: blur(8px); /* Smooth blur effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 0 0 15px 15px; /* Rounded bottom edges */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+/* Navigation links */
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effects */
+.nav-links a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Placeholder content below the navbar */
+.content {
+  margin-top: 70px;
+  padding: 20px;
+  text-align: center;
+}
