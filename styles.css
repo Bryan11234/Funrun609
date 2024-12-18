@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-   background-color: #f5f5f5; /* Light background to highlight the navbar */
+   background-color: #333; /* Light background to highlight the navbar */
   overflow: hidden; /* Hides the scrollbar */
 }
 
