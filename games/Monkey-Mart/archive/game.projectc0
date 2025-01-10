@@ -1,10 +1,10 @@
 [project]
 title = MonkeyMart
-version = 2.1
+version = 3.0
 write_log = 0
 compress_archive = 1
-publisher = unnamed
-developer = unnamed
+publisher = airomatic
+developer = airomatic
 bundle_resources = bundle
 title_as_file_name = MonkeyMart
 
@@ -13,7 +13,7 @@ width = 960
 height = 640
 high_dpi = 1
 samples = 0
-fullscreen = 0
+fullscreen = 1
 update_frequency = 60
 swap_interval = 1
 vsync = 1
