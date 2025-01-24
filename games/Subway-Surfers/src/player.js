@@ -137,7 +137,7 @@ function player(gl) {
     'type': "mono",
     'jump': 0,
     'score': 0,
-    'speed_y': 6,
+    'speed_y': 60,
     'jumpboost': false,
     'flyboost': false,
     'jumpheight': -0.18,
